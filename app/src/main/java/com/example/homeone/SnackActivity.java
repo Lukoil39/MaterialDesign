@@ -19,7 +19,6 @@ public class SnackActivity extends AppCompatActivity {
     }
 
     public void onClickButton(View view) {
-        //Toast.makeText(this, "mes", Toast.LENGTH_SHORT).show();
 
         Snackbar snackbar = Snackbar.make(view, "message", Snackbar.LENGTH_LONG);
 
